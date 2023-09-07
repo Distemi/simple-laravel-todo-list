@@ -41,7 +41,7 @@ export function TodoItem({ item }: TTodoItemProps) {
                 (item.status && ' bg-green-100')
             }
         >
-            <h3 className="text-lg font-bold">{item.title}</h3>
+            <h3 className="text-lg font-bold break-words">{item.title}</h3>
             <p className="text-sm break-words whitespace-break-spaces">
                 {item.description}
             </p>
